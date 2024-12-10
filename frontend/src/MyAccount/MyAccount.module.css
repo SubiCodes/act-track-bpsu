@@ -1,0 +1,319 @@
+.mainContainer{
+    height: 77vh;
+    width: 100vw;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: calc(1.5vw + 1.5vh);
+}
+
+
+.personalInfoDiv{
+    height: 80%;
+    width: 35%;
+    
+    background-color: white;
+    border: 1px solid #7B1113;
+    border-radius: calc(1vw + 1vh);
+
+    padding: 2%;
+    gap: 7%;    
+    display: flex;
+    flex-direction: column;
+}
+
+.skillsContainer{
+    height: 80%;
+    width: 35%;
+    
+    background-color: white;
+    border: 1px solid #7B1113;
+    border-radius: calc(1vw + 1vh);
+
+    padding: 2%;
+    gap: 0;    
+    display: flex;
+    flex-direction: column;
+}
+
+.personalInfoDiv, .skillsContainer {
+    min-height: 80%;
+}
+
+
+.personalInfoRemarks{
+    width: 90%;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    font-size: calc(.7vw + .7vh);
+    font-weight: bolder;
+}
+
+.idContainer{
+    width: 90%;
+    height: 12%;
+    align-self: center;
+    justify-self: center;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: calc(.6vw + .6vh);
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.nameContainer{
+    width: 90%;
+    height: 12%;
+    align-self: center;
+    justify-self: center;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: calc(.6vw + .6vh);
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.emailContainer{
+    width: 90%;
+    height: 12%;
+    align-self: center;
+    justify-self: center;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: calc(.6vw + .6vh);
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.passwordContainer{
+    width: 90%;
+    height: 12%;
+    align-self: center;
+    justify-self: center;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: calc(.6vw + .6vh);
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+.imageHolder{
+    height: 100%;
+    width: 12%;
+    background-color: #7B1113;
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageHolder img{
+    max-width: 50%;
+    height: auto;
+}
+
+
+.valuesContainer{
+    height: 100%;
+    width: 88%;
+
+    border: 2px solid #7B1113;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.imgName{
+    width: 50%;      /* Let it scale to fill the container */
+    height: auto; 
+}
+
+.buttonContainer{
+    width: 90%;
+    height: 12%;
+    align-self: center;
+    justify-self: center;
+    margin-top: 2%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+}
+
+
+.buttonContainer button{
+    width: 50%;
+    height: auto;
+    padding: 2%;
+    border: 2px solid #7B1113;
+    border-radius: calc(2vw + 2vh);
+    background-color: white;
+    font-size: calc(.8vw + .8vh);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7B1113;
+    cursor: pointer;
+}
+
+p{
+    font-size: calc(1vw + 1vh);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*********Skills*********/
+
+.skillRemarksContainer{
+    height: 12%;
+    width: 100%;
+
+    font-size: calc(.7vw + .7vh);
+    font-weight: bolder;
+}
+
+.addContainer{
+    width: 100%;
+    height: 12%;
+    align-self: center;
+    justify-self: center;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: calc(.6vw + .6vh);
+    padding: 0;
+
+    box-sizing: border-box;
+    margin-bottom: 2%;
+}
+
+.addSkill{
+    height: 100%;
+    width: 12%;
+    background-color: #7B1113;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.addSkill img{
+    max-width: 70%;
+}
+
+
+.inputContainer{
+    height: 100%;
+    width: 88%;
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+}
+
+.inputContainer input{
+    height: 100%;
+    width: 100%;
+
+    border-radius: inherit;
+    border: 2px solid #7B1113;
+    box-sizing: border-box;
+    padding: 2%;
+
+    font-size: calc(.7vw + .7vh);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills{
+    border: 1px solid #7B1113;
+    box-sizing: border-box;
+    width: 100%;
+    height: 15%;
+    
+
+    border-radius:calc(.6vw + .6vh) ;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: #F5F5F5;
+    padding-left: 5%;
+    margin-bottom: 1%;
+}
+
+.skillText{
+    width: 88%;
+
+}
+
+.delSkill{
+    height: 100%;
+    width: 12%;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.delSkill img{
+    max-width: 50%;
+}
+
+.allSkillsContainer{
+    width: 100%;
+    height: 70%;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+
+
+
+

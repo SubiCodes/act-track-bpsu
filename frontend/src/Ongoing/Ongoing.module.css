@@ -1,0 +1,283 @@
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+*{
+    margin: 0;
+    font-family: "Audiowide", Arial, sans-serif;
+}
+
+
+.ongoingCreateContainer{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    padding-left: calc(2vh + 2vw);
+    padding-top: calc(1vh + 1vw);
+
+    max-width: 100%;
+
+    gap: 65vw;
+
+    font-size: calc(.7vw + .7vh);
+}
+
+.addProj{
+
+    display: flex;
+    flex-direction: row;
+    gap: .6vw;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+    padding: calc(.7vw + .5vh);
+    width: 12vw;
+    border: none;
+    border-radius: 3vw;
+    background-color: #4C0A0C;
+    color: white;
+}
+
+.addProj h1{
+    font-size: calc(.6vw + .6vh);
+}
+
+.ongoingCreateContainer img{
+    width: 1.5vw;
+    height: auto;
+}
+
+.projects{
+    height: auto;
+    box-sizing: border-box;
+    padding: .5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectContainer{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+
+    width: 94vw;
+    height: 20vh;
+
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1vw;
+
+    margin-bottom: calc(.2vh + .2vw);
+    margin-top: calc(.2vh + .2vw);
+    margin-left: calc(1.5vh + 1.5vw);
+    margin-right: 0;
+}
+
+.titleDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: calc(.2vw + .2vh);
+
+    width: 40%;
+    height: 100%;
+
+
+}
+
+.titleDescription h1, .titleDescription p{
+    padding-left: calc(1vw + 1vh);
+    max-width: 100%;
+    max-height: 7vh;
+    
+    white-space: nowrap;     
+    overflow: hidden;         
+    text-overflow: ellipsis; 
+
+}
+
+.titleDescription h1{
+    font-weight: bolder;
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+.titleDescription p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: calc(.7vw + .7vh);
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+.owner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: calc(.2vw + .2vh);
+
+    width: 15%;
+    height: 100%;
+
+
+}
+
+.owner h1, .owner p{
+    padding-left: calc(1vw + 1vh);
+    max-width: 100%;
+    max-height: 7vh;
+    
+    white-space: nowrap;     
+    overflow: hidden;         
+    text-overflow: ellipsis; 
+
+}
+
+.owner h1{
+    font-weight: bolder;
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+.owner p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: calc(.7vw + .7vh);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.due{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: calc(.2vw + .2vh);
+
+    width: 15%;
+    height: 100%;
+
+
+}
+
+.due h1, .due p{
+    padding-left: calc(1vw + 1vh);
+    max-width: 100%;
+    max-height: 7vh;
+    
+    white-space: nowrap;     
+    overflow: hidden;         
+    text-overflow: ellipsis; 
+
+}
+
+.due h1{
+    font-weight: bolder;
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+.due p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: calc(.7vw + .7vh);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: calc(.2vw + .2vh);
+
+    width: 15%;
+    height: 100%;
+
+
+}
+
+.status h1, .status p{
+    padding-left: calc(1vw + 1vh);
+    max-width: 100%;
+    max-height: 7vh;
+    
+    white-space: nowrap;     
+    overflow: hidden;         
+    text-overflow: ellipsis; 
+
+}
+
+.status h1{
+    font-weight: bolder;
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+.status p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: calc(.7vw + .7vh);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.progress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: calc(.2vw + .2vh);
+
+    width: 28%;
+    height: 100%;
+
+}
+
+.progress h1, .progress p{
+    padding-left: calc(1vw + 1vh);
+    max-width: 100%;
+    max-height: 7vh;
+    
+    white-space: nowrap;     
+    overflow: hidden;         
+    text-overflow: ellipsis; 
+
+}
+
+.progress h1{
+    font-weight: bolder;
+    font-size: calc(1.5vw + 1.5vh);
+    margin-top: 2vh;
+}
+
+.progress p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: calc(.7vw + .7vh);
+}
+
+.progressBarContainer{
+    margin-left: calc(1vw + 1vh);
+    width: 90%;
+    background-color: gray;
+}
+
+.progressBar{
+    height: 2vh;
+    width: 70%;
+    background-color: #7B1113;
+    /* background-color: #753EDA; */
+}
+
+.Link{
+    text-decoration: none;
+}
+
+.projectLink{
+    all: unset;
+    cursor: pointer;
+}

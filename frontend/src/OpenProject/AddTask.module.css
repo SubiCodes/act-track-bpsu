@@ -1,0 +1,120 @@
+.mainContainer{
+    min-height: 77vh;
+    min-width: 100vw;
+    max-height: 75vh;
+    max-width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formBox{
+    height: 60vh;
+    width: 30vw;
+    padding: 2%;
+
+    background-color: white;
+    border: 2px solid black;
+    border-radius: calc(.5vw + .5vh);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4%;
+}
+
+.formBox div{
+    width: 95%;
+}
+
+.Remarks{
+    text-align: center;
+    font-size: calc(1vw + 1vh);
+    min-height: 15%;
+    max-height: 15%;
+    color: #6C3082;
+
+}
+
+.taskDescription{
+    min-height: 20%;
+    max-height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: calc(1.5vw + 1.5vh);
+}
+
+input, select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(1vw + 1vh);
+    padding: 1%;
+}
+
+.taskAssignment{
+    min-height: 20%;
+    max-height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.taskDuedate{
+    min-height: 20%;
+    max-height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.taskButtons{
+    min-height: 10%;
+    max-height: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+
+    justify-content: center;
+}
+
+button{
+    width: 40%;
+    height: 70%;
+    align-self:flex-end;
+    cursor: pointer;
+    font-size: calc(.5vw + .5vh);
+}
+
+.buttonCancel{
+    color: hsl(0, 40%, 45%);
+    border: 2px solid #a14545;
+    background-color: white;
+
+    transition: background-color .5s ease, color .5s ease;
+}
+
+.buttonSubmit{
+    border: 2px solid #5cdb5c;
+    color: #5cdb5c;
+    background-color: white;
+
+    transition: background-color .5s ease, color .5s ease;
+}
+
+.buttonCancel:hover{
+    border: 2px solid hsl(0, 40%, 45%);
+    background-color: hsl(0, 40%, 45%);
+    color:white
+}
+
+.buttonSubmit:hover{
+    border: 2px solid white;
+    background-color: #5cdb5c;
+    color:white
+}

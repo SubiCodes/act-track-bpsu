@@ -1,0 +1,83 @@
+.navContainer{
+    max-width: 100%;
+    height: auto;
+    color: white;
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+
+    background-color: #7B1113;
+    /* background-color: hsl(261, 68%, 40%); */
+}
+
+
+.leftside{
+    width: 50%;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    max-height: 100%;
+}
+
+.rightside img{
+    height: 15vh;
+    justify-self:end;
+}
+
+.actTrackContainer{
+
+    font-size: calc(1vw + 1vh);
+    padding-left: calc(2vh + 2vw);
+    padding-top: calc(1vh + 1vw);
+}
+
+.pageContainer{
+
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+
+    font-size: calc(.3vw + .3vh);
+    padding-left: calc(2vh + 2vw);
+    padding-top: calc(1vh + 1vw);
+}
+
+.myProjects{
+    cursor: pointer;
+    background-color: #4C0A0C;
+    padding: calc(.8vw + .8vh);
+    font-size: calc(.3vw + .3vh);
+
+}
+
+.myAccount{
+    cursor: pointer;
+    background-color: #4C0A0C;
+    padding: calc(.8vw + .8vh);
+    font-size: calc(.3vw + .3vh);
+}
+
+.logout{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #4C0A0C;
+    padding: calc(.8vw + .8vh);
+    width: 6vw;
+}
+
+.Link {
+    font-family: "Audiowide";
+    font-size: calc(.7vw + .7vh);
+    text-decoration: none; /* If needed */
+    color: inherit; /* Ensure it's inheriting color properly */
+    text-align: center;
+
+  }

@@ -1,0 +1,184 @@
+html, body, #root {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leftDiv {
+    background-color: #7B1113;
+    width: 25%;
+    height: 60%;
+  
+    display: flex;
+    flex-direction: column;
+  
+    border-top-left-radius: calc(2vh + 2vw);
+    border-bottom-left-radius: calc(2vh + 2vw);
+  }
+  
+  .remarksContainer{
+    height:35%;
+    width: 100%;
+    padding: 0% 0 0 5%;
+  
+    display: flex;
+    flex-direction: column;
+  
+    flex-shrink: 3vh;
+  
+  }
+  
+  .remarksContainer h1{
+    color: white;
+    height: fit-content;
+    font-family: "Audiowide", Arial, sans-serif;
+    font-size: calc(3vw + 3vh);
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-top: 5%;
+  }
+  
+  .remarksContainer p{
+    margin: 0;
+    color: white;
+    font-family: "Audiowide", Arial, sans-serif;
+    font-size: calc(.8vw + .8vh);
+  }
+  
+  
+  .inputContainer{
+    height: 50%;
+    width: 100%;
+  
+    flex-shrink: 3;
+  }
+  
+  .forms{
+    display: flex;
+    flex-direction: column;
+  
+    padding: 0% 5%;
+    gap: 1.5vh;
+    
+  
+  }
+  
+  .forms input {
+    height: 1.8vh;
+    font-family: "Audiowide", Arial, sans-serif;
+    font-size: calc(.7vw + .7vh);
+    padding: 2vh;
+    border-radius: calc(2vw + 3vh);
+    border: 2px solid white ;
+  
+    background-color: #7B1113;
+    color: white;
+  }
+  
+  .forms input::placeholder{
+    color: white;
+  }
+  
+  .forms input:focus{
+    border: none; 
+    outline: none;
+    background-color: white;
+    color: #7B1113;
+  
+    font-size: calc(1vw + 1vh);
+    font-weight: bold;
+  }
+  
+  .forms input:focus::placeholder{
+    color: #7B1113;
+  }
+  
+  .forms button{
+    background-color: #4C0A0C;
+    color: white;
+    font-family: "Audiowide", Arial, sans-serif;
+    font-weight: bold;
+    font-size: calc(.7vw + .7vh);
+    height: 6vh;
+    width: 80%;
+    align-self: center;
+  
+    margin: 5%;
+  
+    border: none;
+    border-radius: calc(20vh + 20vw);
+  
+    cursor: pointer;
+  }
+  
+  .signUpLink{
+    height: 15%;
+    width: 100%;
+  
+    display: flex;
+  
+  
+    justify-content: center;
+  }
+  
+  .signUpLink a{
+    font-family: "Audiowide", Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    text-align: center;
+  
+    font-size: calc(.7vh + .7vw);
+  }
+  
+  
+  .rightDiv {
+    background-color: white;
+    width: 25%;
+    height: 60%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+    border-top-right-radius: calc(2vh + 2vw);
+    border-bottom-right-radius: calc(2vh + 2vw);
+  }
+  
+  .yonduIllustration{
+    height: 70%;
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    overflow: hidden;
+  }
+  
+  .yonduIllustration img{
+    height: 40vh;
+    width: auto;
+    max-height: 100%;          
+    max-width: 100%;
+  }
+  
+  .errors{
+    color: hsl(0, 95%, 60%);
+    margin: -2vh;
+    margin-left: .7vw;
+    font-size: calc(.71vh + .71vw);
+  }
+  
+  
+  

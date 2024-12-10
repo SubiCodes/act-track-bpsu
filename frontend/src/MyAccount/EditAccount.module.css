@@ -1,0 +1,179 @@
+.mainContainer{
+    height: 77vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.changenameDiv, .changepassDiv{
+    height: 65%;
+    width: 25%;
+
+    background-color: white;
+    border-radius: calc(1vw + 1vh);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    gap: 2%;
+    overflow: hidden;
+    border: 2px solid #7B1113;
+}
+
+.remarksChangeName{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+
+    font-size: calc(.7vw + .7vh);
+}
+
+.currentNameHolder{
+    width: 85%;
+    max-height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+    padding: 0;
+    /* padding-left: 0;
+    padding-right: 0%; */
+
+    /* border: 1px solid red; */
+
+}
+
+.changenameDiv label, .changenameDiv input{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    font-size: calc(1vw + 1vh);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+}
+
+.changenameDiv input:focus{
+    border: 2px solid #7B1113;
+}
+
+.changenameDiv label{
+    font-weight: bolder;
+}
+
+.changenameDiv input{
+    width: 95%;
+    height: auto;
+    padding: 2%;
+    border: 2px solid #7B1113;
+}
+
+.buttonHolder{
+    width: 100%;
+    max-width: 90%;
+    height: 15%;
+    max-height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    padding: 0%;
+    /* padding-left: 0;
+    padding-right: 0%; */
+    /* border: 1px solid red; */
+}
+
+.buttonHolder button{
+    height: 70%;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    cursor: pointer;
+    font-size: calc(.5vw + .5vh);
+}
+
+.clearButton{
+    border: 2px solid #7B1113;
+    color: hsl(0, 40%, 45%);
+    background-color: white;
+
+    transition: background-color .5s ease, color .5s ease;
+}
+
+.changeButton{
+    border: 2px solid #5cdb5c;
+    color: #5cdb5c;
+    background-color: white;
+
+    transition: background-color .5s ease, color .5s ease;
+}
+
+.changeButton:hover{
+    border: 2px solid white;
+    background-color: #5cdb5c;
+    color:white
+}
+
+.clearButton:hover{
+    border: 2px solid hsl(0, 40%, 45%);
+    background-color: hsl(0, 40%, 45%);
+    color:white
+}
+
+.errors{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(.7vw + .7vh);
+    width: 80%;
+    height: auto;
+    padding: 0;
+    color: red;
+    margin-top: -2%;
+}
+/**************************************************/
+
+.changepassDiv{
+    gap: 3%;
+}
+
+.passDiv{
+    width: 85%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.remarksChangePass{
+    margin: 2%;
+    font-size: calc(.7vw + .7vh);
+}
+
+.passDiv label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(1vw + 1vh);
+    font-weight: bolder;
+}
+
+.passDiv input{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    font-size: calc(1vw + 1vh);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+    border: 2px solid #7B1113;
+}
+
+#currentPassLabel{
+    margin-bottom: 2%;
+}

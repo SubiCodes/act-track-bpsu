@@ -1,0 +1,334 @@
+
+
+.container{
+    height: 74vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    gap: 1%;
+}
+
+.leftSide{
+
+    height: 100%;
+    width: 40%;
+
+    min-height: 90%;
+    min-width: 40%;
+
+    max-height: 100%;
+    max-width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.rightSide{
+
+    height: 100%;
+    width: 57%;
+
+    min-height: 90%;
+    min-width: 57%;
+
+    max-height: 100%;
+    max-width: 57%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+
+}
+
+.projectInfoHolder{
+    background-color: white;
+
+    height: 55%;
+    width: 95%;
+    padding: 2%;
+
+    min-height: 50%;
+    min-width: 95%;
+
+    max-height: 50%;
+    max-width: 95%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+
+    border-radius: calc(.5vw + .5vh);
+    border: 1px solid black;
+}
+
+.taskInfoHolder{
+    background-color: white;
+
+    height: 40%;
+    width: 95%;
+    padding: 2%;
+
+    min-height: 40%;
+    min-width: 95%;
+
+    max-height: 40%;
+    max-width: 95%;
+
+    border-radius: calc(.5vw + .5vh);
+    border: 1px solid black;
+}
+
+.projectTitle, .taskDashH1{
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 30%;
+
+    font-size: calc(2vw + 2vh);
+    font-family: Arial, Helvetica, sans-serif;
+
+    overflow: hidden;
+}
+
+.taskDashStats{
+    min-width: 100%;
+    min-height: 70%;
+    max-width: 100%;
+    max-height: 70%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.taskBarHolder{
+    min-width: 50%;
+    min-height: 100%;
+    max-width: 50%;
+    max-height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskBarHolder h1{
+    font-size: calc(2.5vw + 2.5vh);
+    color: #7B1113;
+}
+
+.taskInformation{
+    min-width: 50%;
+    min-height: 100%;
+    max-width: 50%;
+    max-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.taskBarHolder p{
+    font-size: calc(3vw + 3vh);
+    color: #7B1113;
+    text-align: left;
+}
+
+.taskNav{
+    width: 100%;
+    height: 10%;
+
+    min-width: 100%;
+
+    max-width: 100%;
+    max-height: 10%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.taskH1{
+    width: 80%;
+    height: auto;
+    max-width: 70%;
+    min-width: 80%;
+    max-height: 100%;
+
+    font-size: calc(2vw + 2vh);
+
+    overflow: hidden;
+}
+
+.addTask{
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #7B1113;
+    color: white;
+    border: none;
+    border-radius: calc(2vw + 2vh);
+    font-size: calc(.5vw + .5vh);
+    height: 50%;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tasksContainer{
+    height: 90%;
+    width: 95%;
+
+    min-height: 90%;
+    min-width: 95%;
+    max-height: 90%;
+    max-width: 95%;
+    margin-left: -5%;
+    padding: 3%;
+    padding-top: 0;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.task{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: calc(.5vw + .5vh);
+    height: auto;
+    min-width: 100%;
+    min-height: 20%;
+    max-height: 20%;
+    max-width: 100%;
+    padding: 1%;
+
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.task:hover{
+    border: 2px solid green
+}
+
+.taskInfo{
+    min-width: 60%;
+    min-height: 100%;
+    max-width: 60%;
+    max-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taskInfo h1{
+    font-size: calc(1.5vw + 1.5vh);
+    color: #7B1113;
+    max-width: 100%;
+    max-height: 50%;
+
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taskInfo p{
+    max-width: 100%;
+    max-height: 50%;
+
+    font-size: calc(1vw + 1vh);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taskStatDate{
+    max-width: 100%;
+    max-height: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.taskStatDate{
+    min-width: 40%;
+    min-height: 100%;
+    max-width: 40%;
+    max-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.doneButton{
+    align-self: flex-start;
+    margin-bottom: 2%;
+    text-align:center;
+
+    width: 15vw;
+
+    font-size: calc(1vw + 1vh);
+}
+
+.doneButton{
+    border: 2px solid #5cdb5c;
+    color: #5cdb5c;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    transition: background-color .5s ease, color .5s ease;
+}
+.doneButton:hover{
+    border: 2px solid white;
+    background-color: #5cdb5c;
+    color:white
+}
+
+.Link{
+    all: unset;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    background-color: #6C3082;
+    color: white;
+    border: none;
+    border-radius: calc(2vw + 2vh);
+    font-size: calc(.5vw + .5vh);
+    height: 50%;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Link button{
+    font-size: calc(.5vw + .5vh);
+    width: auto;
+    height: auto;
+}
+
+.status{
+    font-family: Arial, Helvetica, sans-serif;
+}
